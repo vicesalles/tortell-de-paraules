@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,400,600,900">
-    <title>Pasapalabra</title>
+    <title>El Gran Tortell - Aniversari Dat Pel Cul</title>
 </head>
 <body>
 	<section class="game">
 		<div class="circle-container">
 			<div class="title-container">
-				<p class="title">PASAPALABRA</p>
+				<p class="title">EL GRAN TORTELL</p>
+				<p class="sub-title">40 anys Óscar</p>
 			</div>
 		    <ul class="circle">
 		        <li class="item">A</li>
@@ -28,7 +29,7 @@
 		        <li class="item">L</li>
 		        <li class="item">M</li>
 		        <li class="item">N</li>
-				<li class="item">Ñ</li>
+				<li class="item">NY</li>
 		        <li class="item">O</li>
 		        <li class="item">P</li>
 		        <li class="item">Q</li>
@@ -49,31 +50,29 @@
 		<div class="controls-container">
 			<i id="js--close" class="icon-close hidden"></i>
 			<div id="js--ng-controls" class="ng-controls">
-				<h4>Bienvenidos al juego de Pasapalabra de Skylab Coders Academy!</h4>
-				<p>Basado en el exitoso concurso de televisión Pasapalabra de Telecinco, las normas son muy sencillas:</p>
-				<p>Se mostraran unas definiciones por pantalla y el usuario deberá responder con la palabra a la que corresponden. El usuario tiene la opción de decir Pasapalabra y dejar esa definición para mas adelante.</p>
-				<p>El programa es sensible a las acentuación, asi que se debe introducir la palabra sin tilde. Es posible utilizar la tecla ENTER para enviar la palabra y el SPACE para hacer pasapalabra.</p>
+				<h4>Benvingut al Gran Tortell!</h4>
+				<p>Óscar, fes memòria i endevina totes les paraules per aconseguir el gran premi. Pensa't bé les respostes i si no ho tens clar: passaparaula! Doncs, només tens una oportunitat per encertar cada paraula.</p>
+				<p>Un cop hagis respost totes les lletres, podràs começar la prova final. Atenció perquè la seva dificultat vindrà donada pel nombre d'errades que hagis comès.</p>
+				<p>Tranquil! Si, per coses de l'edat, la memòria et juga males passades, pots demanar pistes... que se't donaràn a canvi de superar petits reptes.</p>
+				<p>Bona sort!</p>
 				<a id="js--new-game" class="btn"><i class="icon-play"></i>Jugar</a>
 			</div>
 			<div id="js--question-controls" class="question-controls hidden">
 				<span id="js--hint" class="hint"></span>
 				<p id="js--definition" class="definition"></p>
 
-				<input id="js--user-answer" type="text" placeholder="Introduce tu respuesta">
+				<input id="js--user-answer" type="text" placeholder="Introdueix la resposta">
 
 				<a id="js--send" class="btn btn--green" href="#">Enviar</a>
-				<a id="js--pasapalabra" class="btn" href="#">Pasapalabra</a>
+				<a id="js--pasapalabra" class="btn" href="#">Passaparaula</a>
 			</div>
 			<div id="js--pa-controls" class="pa-controls hidden">
 				<p id="js--end-title" class="title"></p>
 				<p id="js--end-subtitle" class="subtitle"></p>
-				<a id="js--pa" class="btn" href=""><i class="icon-loop"></i>Jugar de nuevo</a>
+				<a id="js--pa" class="btn" href=""><i class="icon-loop"></i>Torna a Jugar</a>
 			</div>
 		</div>
-	</section>
-	<footer>
-		<p>Made with <i class="icon-heart"></i> by <a href="http://www.twitter.com/marioterron157">Mario Terron</a></p>
-	</footer>
+	</section>	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/app.js"></script>
 </body>

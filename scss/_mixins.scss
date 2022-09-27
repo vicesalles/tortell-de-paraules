@@ -18,14 +18,14 @@
 		left: 50%;
 		width: $s-item;
 		height: $s-item;
-		margin: -($s-item / 2);
+		margin: - calc($s-item / 2);
 
 		$rot: 270; 									// Rotation angle for the current item
-		$angle: (360 / $nb-items);					// Angle between two items
+		$angle: calc(360 / $nb-items);					// Angle between two items
 
 		@for $i from 1 through $nb-items {
 			&:nth-of-type(#{$i}) {
-				transform: rotate($rot * 1deg) translate($s-circle / 2) rotate($rot * -1deg);
+				transform: rotate($rot * 1deg) translate(calc($s-circle / 2)) rotate($rot * -1deg);
             }
 
 			// Increments the `$rot` variable for next item

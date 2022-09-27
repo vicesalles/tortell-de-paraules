@@ -128,6 +128,7 @@ section {
 	top: 25%;
 	left: 50%;
 	transform: translate(-50%, -25%);
+	text-align: center;
 
 	@media (min-width: 54.75em) {
 		top: 50%;
@@ -141,7 +142,16 @@ section {
 		@media (min-width: 54.75em) {
 			display: block;
 			color: $c-white;
-			font-size: 2.5rem;
+			font-size: 3rem;
+		 }
+	}
+	.sub-title {
+		display: none;
+
+		@media (min-width: 54.75em) {
+			display: block;
+			color: $c-white;
+			font-size: 1.5rem;
 		 }
 	}
 }
