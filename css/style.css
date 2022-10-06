@@ -475,76 +475,73 @@ body {
   transform: rotate(270deg) translate(10.6875em) rotate(-270deg);
 }
 .circle > *:nth-of-type(2) {
-  transform: rotate(284.4deg) translate(10.6875em) rotate(-284.4deg);
+  transform: rotate(285deg) translate(10.6875em) rotate(-285deg);
 }
 .circle > *:nth-of-type(3) {
-  transform: rotate(298.8deg) translate(10.6875em) rotate(-298.8deg);
+  transform: rotate(300deg) translate(10.6875em) rotate(-300deg);
 }
 .circle > *:nth-of-type(4) {
-  transform: rotate(313.2deg) translate(10.6875em) rotate(-313.2deg);
+  transform: rotate(315deg) translate(10.6875em) rotate(-315deg);
 }
 .circle > *:nth-of-type(5) {
-  transform: rotate(327.6deg) translate(10.6875em) rotate(-327.6deg);
+  transform: rotate(330deg) translate(10.6875em) rotate(-330deg);
 }
 .circle > *:nth-of-type(6) {
-  transform: rotate(342deg) translate(10.6875em) rotate(-342deg);
+  transform: rotate(345deg) translate(10.6875em) rotate(-345deg);
 }
 .circle > *:nth-of-type(7) {
-  transform: rotate(356.4deg) translate(10.6875em) rotate(-356.4deg);
+  transform: rotate(360deg) translate(10.6875em) rotate(-360deg);
 }
 .circle > *:nth-of-type(8) {
-  transform: rotate(370.8deg) translate(10.6875em) rotate(-370.8deg);
+  transform: rotate(375deg) translate(10.6875em) rotate(-375deg);
 }
 .circle > *:nth-of-type(9) {
-  transform: rotate(385.2deg) translate(10.6875em) rotate(-385.2deg);
+  transform: rotate(390deg) translate(10.6875em) rotate(-390deg);
 }
 .circle > *:nth-of-type(10) {
-  transform: rotate(399.6deg) translate(10.6875em) rotate(-399.6deg);
+  transform: rotate(405deg) translate(10.6875em) rotate(-405deg);
 }
 .circle > *:nth-of-type(11) {
-  transform: rotate(414deg) translate(10.6875em) rotate(-414deg);
+  transform: rotate(420deg) translate(10.6875em) rotate(-420deg);
 }
 .circle > *:nth-of-type(12) {
-  transform: rotate(428.4deg) translate(10.6875em) rotate(-428.4deg);
+  transform: rotate(435deg) translate(10.6875em) rotate(-435deg);
 }
 .circle > *:nth-of-type(13) {
-  transform: rotate(442.8deg) translate(10.6875em) rotate(-442.8deg);
+  transform: rotate(450deg) translate(10.6875em) rotate(-450deg);
 }
 .circle > *:nth-of-type(14) {
-  transform: rotate(457.2deg) translate(10.6875em) rotate(-457.2deg);
+  transform: rotate(465deg) translate(10.6875em) rotate(-465deg);
 }
 .circle > *:nth-of-type(15) {
-  transform: rotate(471.6deg) translate(10.6875em) rotate(-471.6deg);
+  transform: rotate(480deg) translate(10.6875em) rotate(-480deg);
 }
 .circle > *:nth-of-type(16) {
-  transform: rotate(486deg) translate(10.6875em) rotate(-486deg);
+  transform: rotate(495deg) translate(10.6875em) rotate(-495deg);
 }
 .circle > *:nth-of-type(17) {
-  transform: rotate(500.4deg) translate(10.6875em) rotate(-500.4deg);
+  transform: rotate(510deg) translate(10.6875em) rotate(-510deg);
 }
 .circle > *:nth-of-type(18) {
-  transform: rotate(514.8deg) translate(10.6875em) rotate(-514.8deg);
+  transform: rotate(525deg) translate(10.6875em) rotate(-525deg);
 }
 .circle > *:nth-of-type(19) {
-  transform: rotate(529.2deg) translate(10.6875em) rotate(-529.2deg);
+  transform: rotate(540deg) translate(10.6875em) rotate(-540deg);
 }
 .circle > *:nth-of-type(20) {
-  transform: rotate(543.6deg) translate(10.6875em) rotate(-543.6deg);
+  transform: rotate(555deg) translate(10.6875em) rotate(-555deg);
 }
 .circle > *:nth-of-type(21) {
-  transform: rotate(558deg) translate(10.6875em) rotate(-558deg);
+  transform: rotate(570deg) translate(10.6875em) rotate(-570deg);
 }
 .circle > *:nth-of-type(22) {
-  transform: rotate(572.4deg) translate(10.6875em) rotate(-572.4deg);
+  transform: rotate(585deg) translate(10.6875em) rotate(-585deg);
 }
 .circle > *:nth-of-type(23) {
-  transform: rotate(586.8deg) translate(10.6875em) rotate(-586.8deg);
+  transform: rotate(600deg) translate(10.6875em) rotate(-600deg);
 }
 .circle > *:nth-of-type(24) {
-  transform: rotate(601.2deg) translate(10.6875em) rotate(-601.2deg);
-}
-.circle > *:nth-of-type(25) {
-  transform: rotate(615.6deg) translate(10.6875em) rotate(-615.6deg);
+  transform: rotate(615deg) translate(10.6875em) rotate(-615deg);
 }
 @media (min-width: 54.75em) {
   .circle {
@@ -573,76 +570,73 @@ body {
     transform: rotate(270deg) translate(11.25em) rotate(-270deg);
   }
   .circle > *:nth-of-type(2) {
-    transform: rotate(284.4deg) translate(11.25em) rotate(-284.4deg);
+    transform: rotate(285deg) translate(11.25em) rotate(-285deg);
   }
   .circle > *:nth-of-type(3) {
-    transform: rotate(298.8deg) translate(11.25em) rotate(-298.8deg);
+    transform: rotate(300deg) translate(11.25em) rotate(-300deg);
   }
   .circle > *:nth-of-type(4) {
-    transform: rotate(313.2deg) translate(11.25em) rotate(-313.2deg);
+    transform: rotate(315deg) translate(11.25em) rotate(-315deg);
   }
   .circle > *:nth-of-type(5) {
-    transform: rotate(327.6deg) translate(11.25em) rotate(-327.6deg);
+    transform: rotate(330deg) translate(11.25em) rotate(-330deg);
   }
   .circle > *:nth-of-type(6) {
-    transform: rotate(342deg) translate(11.25em) rotate(-342deg);
+    transform: rotate(345deg) translate(11.25em) rotate(-345deg);
   }
   .circle > *:nth-of-type(7) {
-    transform: rotate(356.4deg) translate(11.25em) rotate(-356.4deg);
+    transform: rotate(360deg) translate(11.25em) rotate(-360deg);
   }
   .circle > *:nth-of-type(8) {
-    transform: rotate(370.8deg) translate(11.25em) rotate(-370.8deg);
+    transform: rotate(375deg) translate(11.25em) rotate(-375deg);
   }
   .circle > *:nth-of-type(9) {
-    transform: rotate(385.2deg) translate(11.25em) rotate(-385.2deg);
+    transform: rotate(390deg) translate(11.25em) rotate(-390deg);
   }
   .circle > *:nth-of-type(10) {
-    transform: rotate(399.6deg) translate(11.25em) rotate(-399.6deg);
+    transform: rotate(405deg) translate(11.25em) rotate(-405deg);
   }
   .circle > *:nth-of-type(11) {
-    transform: rotate(414deg) translate(11.25em) rotate(-414deg);
+    transform: rotate(420deg) translate(11.25em) rotate(-420deg);
   }
   .circle > *:nth-of-type(12) {
-    transform: rotate(428.4deg) translate(11.25em) rotate(-428.4deg);
+    transform: rotate(435deg) translate(11.25em) rotate(-435deg);
   }
   .circle > *:nth-of-type(13) {
-    transform: rotate(442.8deg) translate(11.25em) rotate(-442.8deg);
+    transform: rotate(450deg) translate(11.25em) rotate(-450deg);
   }
   .circle > *:nth-of-type(14) {
-    transform: rotate(457.2deg) translate(11.25em) rotate(-457.2deg);
+    transform: rotate(465deg) translate(11.25em) rotate(-465deg);
   }
   .circle > *:nth-of-type(15) {
-    transform: rotate(471.6deg) translate(11.25em) rotate(-471.6deg);
+    transform: rotate(480deg) translate(11.25em) rotate(-480deg);
   }
   .circle > *:nth-of-type(16) {
-    transform: rotate(486deg) translate(11.25em) rotate(-486deg);
+    transform: rotate(495deg) translate(11.25em) rotate(-495deg);
   }
   .circle > *:nth-of-type(17) {
-    transform: rotate(500.4deg) translate(11.25em) rotate(-500.4deg);
+    transform: rotate(510deg) translate(11.25em) rotate(-510deg);
   }
   .circle > *:nth-of-type(18) {
-    transform: rotate(514.8deg) translate(11.25em) rotate(-514.8deg);
+    transform: rotate(525deg) translate(11.25em) rotate(-525deg);
   }
   .circle > *:nth-of-type(19) {
-    transform: rotate(529.2deg) translate(11.25em) rotate(-529.2deg);
+    transform: rotate(540deg) translate(11.25em) rotate(-540deg);
   }
   .circle > *:nth-of-type(20) {
-    transform: rotate(543.6deg) translate(11.25em) rotate(-543.6deg);
+    transform: rotate(555deg) translate(11.25em) rotate(-555deg);
   }
   .circle > *:nth-of-type(21) {
-    transform: rotate(558deg) translate(11.25em) rotate(-558deg);
+    transform: rotate(570deg) translate(11.25em) rotate(-570deg);
   }
   .circle > *:nth-of-type(22) {
-    transform: rotate(572.4deg) translate(11.25em) rotate(-572.4deg);
+    transform: rotate(585deg) translate(11.25em) rotate(-585deg);
   }
   .circle > *:nth-of-type(23) {
-    transform: rotate(586.8deg) translate(11.25em) rotate(-586.8deg);
+    transform: rotate(600deg) translate(11.25em) rotate(-600deg);
   }
   .circle > *:nth-of-type(24) {
-    transform: rotate(601.2deg) translate(11.25em) rotate(-601.2deg);
-  }
-  .circle > *:nth-of-type(25) {
-    transform: rotate(615.6deg) translate(11.25em) rotate(-615.6deg);
+    transform: rotate(615deg) translate(11.25em) rotate(-615deg);
   }
 }
 .circle .item {
