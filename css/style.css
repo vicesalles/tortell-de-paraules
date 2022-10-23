@@ -384,7 +384,6 @@ textarea {
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -728,7 +727,7 @@ body {
   .title-container .title {
     display: block;
     color: #fff;
-    font-size: 3rem;
+    font-size: 5rem;
   }
 }
 .title-container .sub-title {

@@ -4,7 +4,7 @@
 var words = [
 	new Word(0, "A", "Amb la lletra A:", " On et vas fotre un bitxo tant coent que et sortia cera de les orelles, tot i els avisos previs del cambrer.", "Alacant"),
 	new Word(1, "B", "Amb la lletra B:", " Enemic total gastronòmic contra el que lluites aferrissadament fent proselitisme de la teva causa a les nostres filles.", "Bledes"),
-	new Word(2, "C", "Amb la lletra C:", " Illes de les que vas ser deportat per un assumpte fosc que feia pudor.", "Canàries"),
+	new Word(2, "C", "Amb la lletra C:", " Nom pel qe et coneix la Bettio.", "Croissant"),
 	new Word(3, "D", "Amb la lletra D:", " El sobrenom que més t'escau.", "Dat pel cul"),
 	new Word(4, "E", "Amb la lletra E:", " Disfressa amb la que et vas presentar al carnaval de Solsona, on en comptes de disfresses s’utilitzen bates de colors.", "Exèrcit Roig"),
 	new Word(5, "F", "Amb la lletra F:", " Quina muntanya berguedana vam pujar 5 persones dues vegades amb un dorsal a l’esquena el dia de cap d’any?", "Figuerassa"),
@@ -22,7 +22,7 @@ var words = [
 	new Word(17, "Q", "Amb la lletra Q:", " La primera via llarga que vas haver d'arrossegar l'Eva.", "Queraltina"),
 	new Word(18, "R", "Amb la lletra R:", " L’amic que vem fer quan vem anar a buscar samarretes per vendre i pagar la multa dels “graffitis”.", "Rota"),
 	new Word(19, "S", "Amb la lletra S:", " nom de l'entrentrenament infernal fet a Pedret i del qual et vas escollonar, que constava en 10 repeticions x400 mts.", "Sèries"),
-	new Word(20, "T", "Amb la lletra T:", " Sobrenom polític.", "Trotskar."),
+	new Word(20, "T", "Amb la lletra T:", " Sobrenom polític.", "Trotskar"),
 	new Word(21, "V", "Amb la lletra V:", " Líquid diví que no pot ser tot degustat en una sola nit.", "Vi"),
 	new Word(22, "X", "Amb la lletra X:", " Nom de la via, on en el 3er llarg et va caure un peu d gat…..", "Xibalbà"),
 	new Word(23, "Z", "Amb la lletra Z:", " Personeta a la que Li has ficat mes mandarines dintre la roba, i a la que vash traumar per que es pensaba que tenía bonys per tot el cos...Com t'agrada Fer bromas a tothom...", "Zulema")
@@ -80,30 +80,13 @@ function continuePlaying() {
 	}
 }
 
-var seconds;
-var temp;
-
-function countdown() {
-	seconds = $("#js--timer").html();
-	seconds = parseInt(seconds, 10);
-	if (seconds == 1) {
-		temp = $("#js--timer");
-		temp.innerHTML = 0;
-		endGame();
-		return;
-	}
-	seconds--;
-	temp = $("#js--timer");
-	temp.html(seconds);
-	timeoutMyOswego = setTimeout(countdown, 1000);
-}
-
 function endGame() {
 	$("#js--question-controls").addClass("hidden");
 	$("#js--pa-controls").removeClass("hidden");
 	$("#js--end-title").html("Per molts anys Òscar!");
 	$("#js--end-subtitle").html(showUserScore());
 	$("#js--close").addClass("hidden")
+	ConfettiTime();
 }
 
 function gameOver() {
@@ -136,9 +119,7 @@ $("#js--new-game").click(function() {
 	$("#js--question-controls").removeClass("hidden");
 	$("#js--close").removeClass("hidden");
 	$("js--user-answer").focus();
-	showDefinition(count);
-	countdown();
-	
+	showDefinition(count);	
 });
 
 // Send the answer
@@ -171,3 +152,29 @@ $("#js--pa").click(function() {
 $("#js--close").click(function() {
 	gameOver();
 });
+
+
+// Confetti party
+
+function ConfettiTime(){
+	var duration = 15 * 1000;
+var animationEnd = Date.now() + duration;
+var defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+
+function randomInRange(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+var interval = setInterval(function() {
+  var timeLeft = animationEnd - Date.now();
+
+  if (timeLeft <= 0) {
+    return clearInterval(interval);
+  }
+
+  var particleCount = 50 * (timeLeft / duration);
+  // since particles fall down, start a bit higher than random
+  confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } }));
+  confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
+}, 250);
+}
