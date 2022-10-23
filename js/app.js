@@ -22,7 +22,7 @@ var words = [
 	new Word(17, "Q", "Amb la lletra Q:", " La primera via llarga que vas haver d'arrossegar l'Eva.", "Queraltina"),
 	new Word(18, "R", "Amb la lletra R:", " L’amic que vem fer quan vem anar a buscar samarretes per vendre i pagar la multa dels “graffitis”.", "Rota"),
 	new Word(19, "S", "Amb la lletra S:", " nom de l'entrentrenament infernal fet a Pedret i del qual et vas escollonar, que constava en 10 repeticions x400 mts.", "Sèries"),
-	new Word(20, "T", "Amb la lletra T:", " Sobrenom polític.", "Trotskar"),
+	new Word(20, "T", "Amb la lletra T:", " El teu sobrenom polític.", "Trotskar"),
 	new Word(21, "V", "Amb la lletra V:", " Líquid diví que no pot ser tot degustat en una sola nit.", "Vi"),
 	new Word(22, "X", "Amb la lletra X:", " Nom de la via, on en el 3er llarg et va caure un peu d gat…..", "Xibalbà"),
 	new Word(23, "Z", "Amb la lletra Z:", " Personeta a la que Li has ficat mes mandarines dintre la roba, i a la que vash traumar per que es pensaba que tenía bonys per tot el cos...Com t'agrada Fer bromas a tothom...", "Zulema")
