@@ -87,6 +87,7 @@ function endGame() {
 	$("#js--end-subtitle").html(showUserScore());
 	$("#js--close").addClass("hidden")
 	ConfettiTime();
+	PlayAnathem();
 }
 
 function gameOver() {
@@ -119,7 +120,8 @@ $("#js--new-game").click(function() {
 	$("#js--question-controls").removeClass("hidden");
 	$("#js--close").removeClass("hidden");
 	$("js--user-answer").focus();
-	showDefinition(count);	
+	showDefinition(count);		
+	
 });
 
 // Send the answer
@@ -177,4 +179,17 @@ var interval = setInterval(function() {
   confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } }));
   confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
 }, 250);
+}
+
+// Play sound
+
+function PlayAnathem(){
+
+	const path = "./media/urss.ogg";
+
+	const playAudio = (path) => {
+		new Audio(path).play()
+	 }
+		 
+	 playAudio(path);
 }
