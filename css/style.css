@@ -906,4 +906,15 @@ footer i {
   color: #d90000;
 }
 
+/* Red background*/
+.go-red {
+  background-color: red;
+}
+
+.end-title {
+  font-size: 3em;
+  font-weight: bold;
+  color: yellow;
+}
+
 /*# sourceMappingURL=style.css.map */

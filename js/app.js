@@ -86,6 +86,7 @@ function endGame() {
 	$("#js--end-title").html("Per molts anys Òscar!");
 	$("#js--end-subtitle").html(showUserScore());
 	$("#js--close").addClass("hidden")
+	$('body').addClass("go-red");
 	ConfettiTime();
 	PlayAnathem();
 }
@@ -120,8 +121,7 @@ $("#js--new-game").click(function() {
 	$("#js--question-controls").removeClass("hidden");
 	$("#js--close").removeClass("hidden");
 	$("js--user-answer").focus();
-	showDefinition(count);		
-	
+	showDefinition(count);	
 });
 
 // Send the answer
